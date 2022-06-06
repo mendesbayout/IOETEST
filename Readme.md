@@ -45,15 +45,15 @@ In the order each method is called:
 
     At this point, we have a set of employees.
     
-    update calls the calculate_compensation method for each shift in each day for each employee on the inputted set, and updates their credit attribute.
+    update calls the calculate_ method for each shift in each day for each employee on the inputted set, and updates their credit attribute.
     
-    calculation checks if the inputted day is a weekday or weekend and then, by calling the slice_shift method, it can iterate through all shifts worked on that day and calculate the correct compensation
+    calculation checks if the inputted day is a weekday or weekend and then, by calling the slice method, it can iterate through all shifts worked on that day and   calculate the correct compensation
     
     slice takes starting and ending hours in a day, and then returns how much hours have been worked in each separated shift.
     
     At this point, all employees credit are up to date.
 
-Then, all employees' credits are printed together with their name, as follows: The amount to pay NAME is: CREDIT USD
+Then, all employees' credits are printed together with their name.
 
 <h1>Instructions</h1> 
 
